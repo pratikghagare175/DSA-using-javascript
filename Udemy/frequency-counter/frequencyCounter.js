@@ -6,9 +6,14 @@ Note:- The order is not important
 */
 
 const counting = (arrOne, arrTwo) => {
+  //? check length of both the arrays, if not equal return false
   if (arrOne.length !== arrTwo.length) return false;
 
   const check = {};
+
+  
+  //? Using the first array we'll store the square of each number as object property,
+  
   for (let i = 0; i < arrOne.length; i++) {
     const num = arrOne[i] ** 2;
     if (!check[num]) {
