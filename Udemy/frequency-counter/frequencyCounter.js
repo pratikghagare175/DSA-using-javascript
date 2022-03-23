@@ -10,7 +10,6 @@ const counting = (arrOne, arrTwo) => {
   if (arrOne.length !== arrTwo.length) return false;
 
   const check = {};
-
   
   //? Using the first array we'll store the square of each number as object property,
   

@@ -1,5 +1,8 @@
 // SUM ZERO - RETURN THE FIRST PAIR OF NUMBERS WHOSE SUM IS ZERO
 
+//* TIME COMPLEXITY - O(N);
+//* SPACE COMPLEXITY - O(1);
+
 const sumZero = (arr) => {
   let left = 0;
   let right = arr.length - 1;
